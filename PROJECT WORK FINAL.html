@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>PESA BANK</title>
+    <style>
+            body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #90dcde;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 10%;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            max-width: 50px; /* Adjust the size of the logo */
+            margin-right: 10px; /* Adjust spacing between logo and title */
+        }
+
+        header h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+    <header>
+        <h1>Pesa Bank</h1>
+    </header>
+    
+    
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#transact">Transact</a>
+        <a href="#loan">Loan</a>
+        <a href="#deposit">Deposit</a>
+            
+        <a href="#login">Login</a>
+        <section id="home">
+            <h2>Welcome to Pesa Bank</h2>
+            <p>Discover secure and convenient banking services with Pesa Bank. <br/> <br>Our Landline Number :0700234323.
+            </p>
+        </section>
+
+</head>
+<body>
+    <section id="signup">
+        <h2>Create an Account with Pesa Bank</h2>
+        <form action="/signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <br>
+            <br>
+
+            <input type="submit" value="Sign Up">
+        </form>
+    </section>
+</div>
+    <header>
+        <h1>Pesa Bank</h1>
+    </header>
+
+    <!-- Add a login section -->
+    <section id="login">
+        <h2>Login to Your Pesa Bank Account</h2>
+        <!-- Add a form for login -->
+        <form action="/login" method="post">
+            <label for="username">Username:</label> 
+            <input type="text" id="username" name="username" required>
+            <br>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Login">
+        </form>
+    </section>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesa Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #06c037;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            background-color: #eee;
+            padding: 1em;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #0d0e0c;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #070808;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Pesa Bank</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#transact">Transact</a>
+        <a href="#loan">Loan</a>
+        <a href="#deposit">Deposit</a>
+         </nav>
+
+    <section id="home">
+        <h2>Welcome to Pesa Bank</h2>
+        <p>We Hope That In Every Step You Feel Secure .</p><br> <br>Our Landline Number :0700234323
+    </section>
+    <section id="checkBalance">
+        <h2>Your current balance state</h2>
+    
+        <button onclick="checkBalance()">Check Balance</button>
+        <p>Your current balance: $<span id="balance">1000.00</span></p>
+    </section>
+
+
+    <section id="transact">
+    </section>
+
+ 
+    <section id="passwordEntry">
+        <h2>Enter Password to Access Mobile Money Transaction Services</h2>
+
+        <form action="/password-entry" method="post">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="login">
+        <!-- (login section remains unchanged) -->
+    </section>
+
+        <h2>Mobile Money Transactions</h2>
+        <p>Transfer money to a mobile phone securely using Pesa Bank.</p>
+        <!-- Add form for mobile money transaction -->
+        <form action="/transact" method="post">
+            <label for="recipient">Recipient's Phone Number:</label>
+            <input type="text" id="recipient" name="recipient" required>
+            <br>
+            <br>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            <br>
+            <br>
+            <input type="submit" value="Send Money">
+        </section>
+
+        
+            </form>
+        </section>
+    
+        <section id="login">
+            <!-- (login section remains unchanged) -->
+        </section>
+    
+        </form>
+    </section>
+
+    <section id="loan">
+    </section>
+
+    <!-- Add a password entry section -->
+    <section id="passwordEntry">
+        <h2>Enter Password to Access Loan Services</h2>
+        <!-- Add a form for password entry -->
+        <form action="/password-entry" method="post">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="login">
+        <!-- (login section remains unchanged) -->
+    </section>
+
+        <h2>Loan Services</h2>
+    
+        <p>Apply for a loan with competitive interest rates at Pesa Bank.</p>
+        <!-- Add form for loan application -->
+        <form action="/loan" method="post">
+            <label for="loanAmount">Loan Amount:</label>
+            <input type="number" id="loanAmount" name="loanAmount" required>
+            <br>
+            <br>
+            <label for="term">Loan Term (months):</label>
+            <input type="number" id="term" name="term" required>
+            <br>
+            <br>
+            <input type="submit" value="Apply for Loan">
+        </section>
+
+    
+    
+        </form>
+    </section>
+
+    <section id="deposit">
+    </section>
+
+    <!-- Add a password entry section -->
+    <section id="passwordEntry">
+        <h2>Enter Password to Access deposit Services</h2>
+        <!-- Add a form for password entry -->
+        <form action="/password-entry" method="post">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="login">
+        <!-- (login section remains unchanged) -->
+    </section>
+
+        <h2>Deposit Money</h2>
+        <p>Securely deposit money into your Pesa Bank account.</p>
+        <!-- Add form for deposit -->
+        <form action="/deposit" method="post">
+            <label for="depositAmount">Deposit Amount:</label>
+            <input type="number" id="depositAmount" name="depositAmount" required>
+            <br>
+            <br>
+            <input type="submit" value="Deposit">
+
+        </form>
+    </section>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Automatic Logout Example</title>
+        
+
+</body>
+</html>
