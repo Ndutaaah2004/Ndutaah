@@ -37,3 +37,38 @@
         padding:10rem 9% 2rem;
     }
 
+/* CSS styles for the card layout */
+.card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 40px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-content {
+    flex: 1;
+    padding: 20px;
+}
+
+.card-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+.card-image img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+}
+
+.left h2 {
+    color: #717171;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
