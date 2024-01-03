@@ -34,6 +34,10 @@
     .navbar a:hover {
         color: blue;
     }
+
+    .navbar a.active {
+        text-decoration: underline; /* Underlines text for active/clicked link */
+    }
     
 .section{
         min-height: 100vh;
