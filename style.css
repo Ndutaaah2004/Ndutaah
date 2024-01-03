@@ -81,9 +81,10 @@
     background-color: #78350F;
     color:#FFFFFF;
     border: 1px solid #78350F;
-    padding: 14px, 32px, 14px, 32px;
+    padding: 10px 20px; 
     border-radius: 8px;
     width: 164px;
+    margin-left: 100px;
     height: 52px;
 }
 
