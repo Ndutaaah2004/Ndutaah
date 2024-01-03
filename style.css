@@ -20,18 +20,21 @@
 
 .header h1{
     cursor: pointer;
+    background-color: #78350F;
 }
 
 
  .navbar a{
         
-        color:#717171;
+        color:#78350F;
         font-weight: 300;
         margin-left: 10px;
-        
-        
     }
 
+    .navbar a:hover {
+        color: blue;
+    }
+    
 .section{
         min-height: 100vh;
         padding:10rem 9% 2rem;
