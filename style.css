@@ -20,7 +20,12 @@
 
 .header h1{
     cursor: pointer;
-    background-color: #78350F;
+    
+}
+
+.header h1 a {
+    color: #78350F;
+    text-decoration: none; /* Optional: removes the default underline for links */
 }
 
 
