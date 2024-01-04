@@ -116,7 +116,9 @@
     margin-top: 0px;
 }
 
-
+.card-content .left p{
+    margin-top: 0px;
+}
 #signup{
     text-align: left;
 }
@@ -130,9 +132,13 @@
     display: block;
     /* Add more styles as needed */
   }
+  #put.card h2{
+    margin-bottom: 0px;
+  }
  
   #put.card img{
     margin-top: 110px;
+    margin-bottom: 30px;
   }
 form {
     max-width: 400px;
@@ -170,4 +176,12 @@ form {
  
   #signup h2{
      text-align: center;
+  }
+
+  .checkBalance {
+    margin-top: 80px;
+  }
+
+  .checkBalance button{
+    margin-top: 30px;
   }
