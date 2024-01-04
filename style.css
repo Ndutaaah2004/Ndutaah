@@ -99,6 +99,14 @@
     margin-left: 100px;
     height: 52px;
 }
+.righti{
+    flex-direction: row;
+}
+.righti a{
+   margin-left: 80px;
+   align-items: flex-end;
+    
+}
 .-image{
     display: flex;
     justify-content: space-around;
