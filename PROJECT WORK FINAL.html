@@ -76,18 +76,23 @@
     <!-- Add a login section -->
     <section id="login">
         <h2>Login to Your Pesa Bank Account</h2>
-        <!-- Add a form for login -->
-        <form action="/login" method="post">
-            <label for="username">Username:</label> 
-            <input type="text" id="username" name="username" required>
-            <br>
-            <br>
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            <br>
-            <br>
-            <input type="submit" value="Login">
-        </form>
+        <form id="LoginForm">
+            <div>
+              <label for="name">Username</label>
+              <input type="text" id="name" name="name" placeholder="Username" required>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="email" required>
+            </div>
+            <div>
+              <label for="password">Password:</label>
+              <input type="password" id="password" name="password" placeholder="password" required>
+            </div>
+            <div>
+              <button type="submit"><i class="fas fa-sign-in-alt"></i> Login</button>
+            </div>
+          </form>
     </section>
 <head>
     <meta charset="UTF-8">
