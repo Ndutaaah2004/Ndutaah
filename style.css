@@ -202,7 +202,7 @@ form {
 .footer {
   background-color: tan;
   color: #333;
-  padding: 10px 10px;
+  padding: 0;
   font-family: Arial, sans-serif;
   text-align: center;
 
@@ -237,9 +237,11 @@ form {
 
 .footerlast{
   margin-right: 20px;
+  margin-top: 50px;
 }
 .footer-sectionabout h1{
   margin-bottom: 20px;
+  margin-top: 28px;
 }
 .footer-sectionabout p{
   margin-top: 18px;
@@ -251,7 +253,7 @@ form {
   display: block;
   margin-bottom: 5px;
   transition: color 0.3s ease;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .footer-section a:hover {
