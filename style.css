@@ -235,6 +235,13 @@ form {
   margin-left: 40px;
 }
 
+.footer-sectionabout h1{
+  margin-bottom: 20px;
+}
+.footer-sectionabout p{
+  margin-top: 18px;
+}
+
 .footer-section a {
   color: #333;
   text-decoration: none;
