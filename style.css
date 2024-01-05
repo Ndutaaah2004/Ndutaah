@@ -231,6 +231,10 @@ form {
   margin-bottom: 15px;
 }
 
+.footer-sectionabout{
+  margin-left: 40px;
+}
+
 .footer-section a {
   color: #333;
   text-decoration: none;
