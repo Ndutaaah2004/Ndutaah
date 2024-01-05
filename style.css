@@ -232,9 +232,12 @@ form {
 }
 
 .footer-sectionabout{
-  margin-left: 40px;
+  margin-left: 20px;
 }
 
+.footerlast{
+  margin-right: 20px;
+}
 .footer-sectionabout h1{
   margin-bottom: 20px;
 }
