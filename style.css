@@ -51,6 +51,10 @@
         padding:10rem 9% 2rem;
     }
 
+#password-entry {
+  background-color: #0e2626;
+}
+
 /* CSS styles for the card layout */
 .card {
     display: flex;
