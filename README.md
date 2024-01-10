@@ -17,3 +17,5 @@ The signup section contains a form that allows users to sign up for an account. 
 ### Footer
 
 The footer contains information about the bank, such as its address, phone number, and email address. The footer also contains links to the bank's social media pages.
+
+NOTED. I think am having a problem in pulling
